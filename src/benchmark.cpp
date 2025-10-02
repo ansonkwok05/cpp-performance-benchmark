@@ -31,7 +31,7 @@ namespace benchmark
         {
             double ms_spent = (double)results.at(i) / 1'000'000;
             double avg_us_spent = (double)results.at(i) / 1'000 / tests.at(i).getIterationsRan();
-            std::cout << "Test 1 - Total " << ms_spent << "ms Average " << avg_us_spent << "us\n";
+            std::cout << "Test " << i + 1 << " - Total " << ms_spent << "ms Average " << avg_us_spent << "us\n";
         }
     }
 } // namespace benchmark
