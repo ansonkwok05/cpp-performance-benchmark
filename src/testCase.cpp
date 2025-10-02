@@ -12,7 +12,7 @@ long long testCase::run()
 {
     m_start_point = std::chrono::high_resolution_clock::now();
 
-    for (size_t m_iterations_ran = 0; m_iterations_ran < m_target_iterations; ++m_iterations_ran)
+    for (m_iterations_ran = 0; m_iterations_ran < m_target_iterations; ++m_iterations_ran)
     {
         m_function();
     }
